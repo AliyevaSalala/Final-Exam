@@ -1,0 +1,32 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "image": "./assets/images/product_1.jpg",
+      "title": "The Shoe",
+      "desc": "Summer Collection",
+      "price": 12
+    },
+    {
+      "id": "2",
+      "image": "./assets/images/product_2.jpg",
+      "title": "Marc Jacobs Bag",
+      "desc": "Summer Collection",
+      "price": 17
+    },
+    {
+      "id": "3",
+      "image": "./assets/images/product_3.jpg",
+      "title": "The Belt",
+      "desc": "Summer Collection",
+      "price": 19
+    },
+    {
+      "id": "4",
+      "image": "./assets/images/product_1.jpg",
+      "title": "The Shoe",
+      "desc": "Summer Collection",
+      "price": 26
+    }
+  ]
+}

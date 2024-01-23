@@ -1,0 +1,41 @@
+#coat {
+  padding: 2rem 0;
+
+  .coat-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .coat-left {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 30%;
+      }
+    }
+    .coat-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+
+      h5 {
+        font-size: 14px;
+        line-height: 17px;
+      }
+      h1 {
+        font-size: 70px;
+      }
+      button {
+        font-size: 13px;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid transparent;
+      }
+    }
+  }
+}
