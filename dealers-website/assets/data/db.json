@@ -1,20 +1,6 @@
 {
   "product": [
     {
-      "id": "1",
-      "image": "./assets/images/product_1.jpg",
-      "title": "The Shoe",
-      "desc": "Summer Collection",
-      "price": 12
-    },
-    {
-      "id": "2",
-      "image": "./assets/images/product_2.jpg",
-      "title": "Marc Jacobs Bag",
-      "desc": "Summer Collection",
-      "price": 17
-    },
-    {
       "id": "3",
       "image": "./assets/images/product_3.jpg",
       "title": "The Belt",
@@ -27,6 +13,34 @@
       "title": "The Shoe",
       "desc": "Summer Collection",
       "price": 26
+    },
+    {
+      "id": "b7e1",
+      "image": "./assets/images/product_2.jpg",
+      "title": "canta",
+      "desc": "ilk post",
+      "price": "7"
+    },
+    {
+      "id": "c379",
+      "image": "./assets/images/product_3.jpg",
+      "title": "cantaa",
+      "desc": "ilk post",
+      "price": "19"
+    },
+    {
+      "id": "a82a",
+      "image": "./assets/images/product_1.jpg",
+      "title": "Sebnem",
+      "desc": "Sebnem ayaqqabisi",
+      "price": "27"
+    },
+    {
+      "id": "4353",
+      "image": "./assets/images/product_1.jpg",
+      "title": "ayyaqabi",
+      "desc": "sasasasas",
+      "price": "7"
     }
   ]
 }

@@ -2,6 +2,8 @@ header {
   padding: 2rem 0;
   position: absolute;
   width: 100%;
+  z-index: 1111;
+  transition: all 0.7s;
   .header {
     display: flex;
     justify-content: space-between;
@@ -15,6 +17,7 @@ header {
     nav {
       ul {
         display: flex;
+        align-items: center;
         gap: 20px;
 
         li {
@@ -24,6 +27,10 @@ header {
             text-transform: uppercase;
             font-weight: 300;
           }
+        }
+        .fa-moon {
+          cursor: pointer;
+          font-size: 15px;
         }
       }
     }
@@ -52,8 +59,17 @@ header {
         // display: none;
         position: fixed;
         width: 50%;
+        top: 0;
         height: 100%;
         left: -800px;
+        background-color: #f3eeee;
+        z-index: 11111;
+        transition: all 0.7s;
+        ul {
+          flex-direction: column;
+          gap: 25px;
+          padding: 50px 10px;
+        }
 
         &.show {
           left: 0;
@@ -65,5 +81,13 @@ header {
         }
       }
     }
+  }
+
+  &.header-scroll {
+    position: fixed;
+    width: 100%;
+    z-index: 11111;
+    background-color: #f3eeee;
+    padding: 1.3rem 0;
   }
 }

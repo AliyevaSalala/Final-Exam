@@ -1,5 +1,5 @@
 #banner {
-  //   padding: 2rem 0;
+  padding: 100px 0;
   .hero-banner-section {
     display: flex;
     justify-content: center;
@@ -64,11 +64,30 @@
   @media (min-width: 481px) and (max-width: 767px) {
     .hero-banner-section {
       flex-direction: column;
+      .hero-banner-section-right {
+        text-align: center;
+        h1 {
+          font-size: 30px;
+        }
+        .banner-btn {
+          flex-direction: column;
+        }
+      }
     }
   }
-  @media (min-width: 300px) and (max-width: 480px) {
+  @media (min-width: 250px) and (max-width: 480px) {
     .hero-banner-section {
       flex-direction: column;
+      align-items: center;
+      .hero-banner-section-right {
+        text-align: center;
+        h1 {
+          font-size: 30px;
+        }
+        .banner-btn {
+          flex-direction: column;
+        }
+      }
     }
   }
 }

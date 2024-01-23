@@ -17,6 +17,15 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
     <link rel="stylesheet" href="./assets/sass/main.css" />
     <title>Document</title>
   </head>
@@ -27,17 +36,25 @@
           <a href="./index.html"><h1>DEALERS</h1></a>
           <nav>
             <ul>
-              <li><a href="#">Collection</a></li>
-              <li><a href="#">Shop</a></li>
+              <li><a href="#">Collection </a></li>
+              <li><a href="#product">Shop</a></li>
               <li><a href="#">Catalogs</a></li>
               <li><a href="#">Contact</a></li>
+              <li><a href="./form.html">Form</a></li>
+              <i class="fa-solid fa-moon" id="dark-mode"></i>
             </ul>
           </nav>
 
           <div class="icons">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
+            <a href="./favorite.html">
+              <i class="fa-regular fa-heart"></i>
+              <sup class="fav-counter">0</sup></a
+            >
+            <a href="./basket.html">
+              <i class="fa-solid fa-bag-shopping"></i
+              ><sup class="basket-counter">0</sup></a
+            >
             <i class="fa-solid fa-bars" id="menu-icon"></i>
           </div>
         </div>
@@ -84,6 +101,8 @@
             </div>
           </div> -->
         </div>
+
+        <button class="load-more">Load More</button>
       </div>
     </section>
 
@@ -99,6 +118,62 @@
             <h5>#NEW SUMMER COLLECTION 2019</h5>
             <h1>JACKET</h1>
             <button>shop now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAROUSEL-SECTION -->
+
+    <section id="carousel">
+      <div class="container">
+        <div class="carousel-section">
+          <div class="info">
+            <h1>COLLECTIONS</h1>
+          </div>
+          <div class="home-demo">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="./assets/images/product_1.jpg" alt="" />
+                <div class="info">
+                  <h1>The Belt</h1>
+                  <p>Summer Collection</p>
+                  <h5>$9.00</h5>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/product_2.jpg" alt="" />
+                <div class="info">
+                  <h1>The Belt</h1>
+                  <p>Summer Collection</p>
+                  <h5>$9.00</h5>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/product_3.jpg" alt="" />
+                <div class="info">
+                  <h1>The Belt</h1>
+                  <p>Summer Collection</p>
+                  <h5>$9.00</h5>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/product_1.jpg" alt="" />
+                <div class="info">
+                  <h1>The Belt</h1>
+                  <p>Summer Collection</p>
+                  <h5>$9.00</h5>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/product_2.jpg" alt="" />
+                <div class="info">
+                  <h1>The Belt</h1>
+                  <p>Summer Collection</p>
+                  <h5>$9.00</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -204,6 +279,12 @@
       </div>
     </footer>
 
+    <div class="arrow-up">
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./assets/js/common.js"></script>
     <script src="./assets/js/main.js"></script>

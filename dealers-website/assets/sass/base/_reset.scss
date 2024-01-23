@@ -7,3 +7,29 @@
   outline: none;
   //   font-family: "Rubik", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark-mode {
+  background-color: #000;
+}
+
+.dark-mode {
+  .header {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+    nav {
+      ul {
+        li {
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
